@@ -25,7 +25,7 @@
         tools:replace="android:icon">
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-6842538229766974~3089618454"/>
+            android:value="#API Key Google"/>
         <activity
             android:name=".ActivityUtama"
             android:theme="@style/AppTheme.NoActionBar">
