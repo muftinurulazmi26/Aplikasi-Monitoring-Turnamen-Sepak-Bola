@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_namaTim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="6dp"
+            android:text="Janturan FC" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_namaTim"
+            android:text=" / Manager"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="6dp"
+            android:textStyle="bold" />
+
+        <!-- divider line -->
+        <ImageView
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tv_namaTim"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:src="@color/contentDividerLine" />
+
+        <TextView
+            android:id="@+id/tv_namaManager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="36dp"
+            android:text="Mufti Nurul Azmi"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/profilManager"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/divider"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/coach" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_below="@+id/divider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="26dp"/>
+
+        <TextView
+            android:id="@+id/tv_tinggalManager"
+            android:layout_below="@+id/tv_namaManager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="Kab. Tegal" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

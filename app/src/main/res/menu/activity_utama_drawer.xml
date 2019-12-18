@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/tim"
+            android:icon="@drawable/tim"
+            android:title="Tim" />
+        <item
+            android:id="@+id/player"
+            android:icon="@drawable/player"
+            android:title="Player" />
+        <item
+            android:id="@+id/match"
+            android:icon="@drawable/match"
+            android:title="Match" />
+        <item
+            android:id="@+id/nextmatch"
+            android:icon="@drawable/nextmatch"
+            android:title="Next Match" />
+        <item
+            android:id="@+id/lastmatch"
+            android:icon="@drawable/lastmatch"
+            android:title="Last Match" />
+        <item
+            android:id="@+id/manager"
+            android:icon="@drawable/manager_tim"
+            android:title="Manager" />
+
+        <item
+            android:id="@+id/privasi"
+            android:icon="@drawable/ic_lock_black_24dp"
+            android:title="Privacy Policy" />
+    </group>
+
+</menu>

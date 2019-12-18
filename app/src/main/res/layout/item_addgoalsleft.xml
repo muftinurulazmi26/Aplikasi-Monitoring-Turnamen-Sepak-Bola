@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/icongoals"
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:src="@drawable/player_warna"/>
+
+        <TextView
+            android:id="@+id/tv_GlsnmPlayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="2dp"
+            android:textSize="8sp"
+            android:text="Nama Pemain"/>
+
+        <TextView
+            android:id="@+id/tv_Glsmenitgoals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="2dp"
+            android:textSize="8sp"
+            android:text="7'"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "240055004307",
+    "firebase_url": "https://karangtarunafootball.firebaseio.com",
+    "project_id": "karangtarunafootball",
+    "storage_bucket": "karangtarunafootball.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240055004307:android:a75711ad2e461604",
+        "android_client_info": {
+          "package_name": "com.mffa.dev.issbid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240055004307-3nvk5cumguv20ij4107e2jh8gt5km513.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mffa.dev.issbid",
+            "certificate_hash": "189febb1993d24e70912c6395006a61daf53fe00"
+          }
+        },
+        {
+          "client_id": "240055004307-0s3dggc77rb2f2ri80rieedgj2k6egak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKRnlVqdJoNoZ2SYNJ_EryjpFPnMN8nm8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240055004307-0s3dggc77rb2f2ri80rieedgj2k6egak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240055004307:android:06504ff2df0e44e1",
+        "android_client_info": {
+          "package_name": "com.mffa.dev.karangtarunafootball"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240055004307-0s3dggc77rb2f2ri80rieedgj2k6egak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKRnlVqdJoNoZ2SYNJ_EryjpFPnMN8nm8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

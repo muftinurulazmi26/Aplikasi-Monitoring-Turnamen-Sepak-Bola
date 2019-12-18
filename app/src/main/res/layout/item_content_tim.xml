@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bgContent"
+    android:visibility="gone">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/rumput"
+            android:layout_marginBottom="5dp"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:layout_below="@+id/img_logo"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_julukan_Tim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Julukan: "
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/tv_didirikan_Tim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Didirikan: "
+                android:textColor="@android:color/black"/>
+
+            <!-- divider line -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginTop="9dp"
+                android:src="@color/contentDividerLine" />
+
+            <TextView
+                android:id="@+id/tv_directur_Tim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Directur: "
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/tv_manager_Tim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Manager: "
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/tv_asistmanager_Tim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Asisten Manager: "
+                android:textColor="@android:color/black"/>
+
+            <!-- divider line -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginTop="9dp"
+                android:src="@color/contentDividerLine" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Tim Medis: "
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/tv_tim_medias1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="1. "
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/tv_tim_medis2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="2. "
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Keamanan: "
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/tv_keamanan_tim1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="1. "
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/tv_keamanan_tim2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="2. "
+                android:textColor="@android:color/black"/>
+
+            <!-- divider line -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginTop="9dp"
+                android:src="@color/contentDividerLine" />
+
+            <TextView
+                android:id="@+id/tv_hukuman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Hukuman: "
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/tv_keterangan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Keterangan: "
+                android:layout_marginBottom="5dp"
+                android:textColor="@android:color/black"/>
+
+            <!-- divider line -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginTop="9dp"
+                android:src="@color/contentDividerLine" />
+
+            <TextView
+                android:id="@+id/tv_terdafar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Terdafatar: "
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/tv_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Update: "
+                android:layout_marginBottom="5dp"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/player"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/img_logo"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="-87dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/player_warna" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/player"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="-7dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="5dp"
+            android:text="Pemain"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

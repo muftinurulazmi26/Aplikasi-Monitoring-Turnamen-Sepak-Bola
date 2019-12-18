@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <EditText
+                    android:id="@+id/edt_namaPertandingan"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Nama Pertandingan"
+                    android:maxLines="1"
+                    android:inputType="textCapSentences"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <AutoCompleteTextView
+                    android:id="@+id/edt_namaTim"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Nama Tim"
+                    android:inputType="textCapSentences"
+                    android:maxLines="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/versus"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <AutoCompleteTextView
+                    android:id="@+id/edt_lawanTim"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Lawan Tim"
+                    android:inputType="textCapSentences"
+                    android:maxLines="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <EditText
+                    android:id="@+id/edt_tgl"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Tanggal"
+                    android:maxLines="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:editable="false"
+                    android:inputType="none"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <EditText
+                    android:id="@+id/edt_jam"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Jam"
+                    android:maxLines="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:editable="false"
+                    android:inputType="none"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <EditText
+                    android:id="@+id/edt_menitBermain"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Menit Bermain"
+                    android:inputType="textCapSentences"
+                    android:maxLines="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:id="@+id/btncancel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Batal"
+                    android:theme="@style/ThemeOverlay.FilterButton"/>
+
+
+                <Button
+                    android:id="@+id/btnadd"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Tambah"
+                    android:theme="@style/ThemeOverlay.FilterButton"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

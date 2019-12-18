@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:background="#30afbf">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_namaKomp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="Turnamen U16"/>
+
+        </RelativeLayout>
+
+        <!-- divider line -->
+        <ImageView
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:src="@color/contentDividerLine" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_namaTim"
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="4dp"
+                android:textAlignment="center"
+                android:text="Nama Tim"/>
+
+            <!-- divider line -->
+            <ImageView
+                android:id="@+id/dividerTim"
+                android:layout_width="1dp"
+                android:layout_height="25dp"
+                android:src="@color/contentDividerLine" />
+
+            <TextView
+                android:id="@+id/tv_M"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:text="M"/>
+
+            <!-- divider line -->
+            <ImageView
+                android:id="@+id/dividerM"
+                android:layout_width="1dp"
+                android:layout_height="25dp"
+                android:src="@color/contentDividerLine" />
+
+            <TextView
+                android:id="@+id/tv_K"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:textAlignment="center"
+                android:text="K"/>
+
+            <!-- divider line -->
+            <ImageView
+                android:id="@+id/dividerK"
+                android:layout_width="1dp"
+                android:layout_height="25dp"
+                android:src="@color/contentDividerLine" />
+
+            <TextView
+                android:id="@+id/tv_S"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:textAlignment="center"
+                android:text="S"/>
+
+            <!-- divider line -->
+            <ImageView
+                android:id="@+id/dividerS"
+                android:layout_width="1dp"
+                android:layout_height="25dp"
+                android:src="@color/contentDividerLine" />
+
+            <TextView
+                android:id="@+id/tv_MG"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:textAlignment="center"
+                android:text="MG"/>
+
+            <!-- divider line -->
+            <ImageView
+                android:id="@+id/dividerMG"
+                android:layout_width="1dp"
+                android:layout_height="25dp"
+                android:src="@color/contentDividerLine" />
+
+            <TextView
+                android:id="@+id/tv_KG"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:textAlignment="center"
+                android:text="KG"/>
+
+            <!-- divider line -->
+            <ImageView
+                android:id="@+id/dividerKG"
+                android:layout_width="1dp"
+                android:layout_height="25dp"
+                android:src="@color/contentDividerLine" />
+
+            <TextView
+                android:id="@+id/tv_Poin"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="4dp"
+                android:textAlignment="center"
+                android:text="Poin"/>
+        </LinearLayout>
+
+        <!-- divider line -->
+        <ImageView
+            android:id="@+id/dividerBottom"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:src="@color/contentDividerLine" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rc_Tim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+        <!-- divider line -->
+        <ImageView
+            android:id="@+id/dividerBottom2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:src="@color/contentDividerLine" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_iklan"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/sunrise"/>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/btnclose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLOSE"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/img_iklan"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-26dp"
+        android:layout_marginRight="8dp"
+        android:shadowRadius="2"
+        android:shadowColor="@android:color/black"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>

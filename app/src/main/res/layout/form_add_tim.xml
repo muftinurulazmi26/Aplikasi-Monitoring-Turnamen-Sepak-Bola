@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:text="Logo Tim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:fontFamily="@font/leaguegothic"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/no_images_available"
+                    android:id="@+id/previewimg"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnselectedimg"
+                    android:text="Pilih"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:theme="@style/ThemeOverlay.FilterButton"/>
+
+            </LinearLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <EditText
+                    android:id="@+id/edt_namaTim"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Nama Tim"
+                    android:inputType="textCapSentences"
+                    android:maxLines="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <EditText
+                    android:id="@+id/edt_julukan"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Julukan"
+                    android:inputType="textCapSentences"
+                    android:maxLines="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+                <EditText
+                    android:layout_margin="8dp"
+                    android:id="@+id/edt_didirikan"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Didirikan"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:editable="false"
+                    android:inputType="none"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <EditText
+                    android:id="@+id/edt_directure"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Directure"
+                    android:inputType="textCapSentences"
+                    android:maxLines="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <AutoCompleteTextView
+                    android:id="@+id/edt_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Manager"
+                    android:inputType="textCapSentences"
+                    android:maxLines="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <EditText
+                    android:id="@+id/edt_asistenManager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Asisten Manager"
+                    android:inputType="textCapSentences"
+                    android:maxLines="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <EditText
+                    android:id="@+id/edt_timMedis1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Tim Medis 1"
+                    android:inputType="textCapSentences"
+                    android:maxLines="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <EditText
+                    android:id="@+id/edt_timMedis2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Tim Medis 2"
+                    android:inputType="textCapSentences"
+                    android:maxLines="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <EditText
+                    android:id="@+id/edt_keamanan1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Keamanan Tim 1"
+                    android:inputType="textCapSentences"
+                    android:maxLines="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <EditText
+                    android:id="@+id/edt_keamanan2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Keamanan Tim 2"
+                    android:inputType="textCapSentences"
+                    android:maxLines="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <EditText
+                    android:id="@+id/edt_hukuman"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Hukuman"
+                    android:inputType="textCapSentences"
+                    android:maxLines="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <EditText
+                    android:id="@+id/edt_keterangan"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Keterangan"
+                    android:inputType="textCapSentences"
+                    android:maxLines="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:id="@+id/btncancel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Batal"
+                    android:theme="@style/ThemeOverlay.FilterButton"/>
+
+
+                <Button
+                    android:id="@+id/btnadd"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Tambah"
+                    android:theme="@style/ThemeOverlay.FilterButton"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
